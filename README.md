@@ -18,6 +18,7 @@ The pretrained models of our method are avaliable as follows:
 
 #### Install Python Dependencies
 ```
+git clone https://github.com/zhangbowen-wx/Shape-Completion-with-Points-in-the-Shadow.git
 cd Shape-Completion-with-Points-in-the-Shadow
 pip install -r requirements.txt
 ```
@@ -33,7 +34,7 @@ cd utils/pointnet2_ops_lib
 python setup.py install
 ```
 
-## Getting Started
+## Usage
 To train our models, you can use following commands:
 ```
 python train.py # train our model(with GT viewpoints)
